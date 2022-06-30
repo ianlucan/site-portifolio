@@ -91,6 +91,21 @@
     width: 485px;
 }
 
+@media (max-width: 600px) {
+
+    .content-header h1 {
+        font-size: 3rem;
+        width: 450px;
+        line-height: 3rem;
+    } 
+
+    .content-header {
+        top: 15%;
+        left: 5%;
+    }
+    
+}
+
 .content-header h1::after {
     content: '|';
     margin-left: 5px;
@@ -110,9 +125,10 @@
 .content-header p{
     font-family: var(--contudos);
     color: var(--cor-clara);
-    font-size: 2rem;
     text-shadow: .2rem .2rem 2px rgba(0,0,0,0.4);
+    font-size: 2rem;
     margin-bottom: 2rem;
+    width: 400px;
 }
 
 .content-header p::after {
